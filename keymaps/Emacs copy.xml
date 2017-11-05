@@ -4,9 +4,12 @@
     <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
   <action id="$Paste">
-    <keyboard-shortcut first-keystroke="alt p" />
     <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
   <action id="$Undo">
@@ -14,77 +17,44 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
-  <action id="Back">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-    <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
-  </action>
-  <action id="ChangesView.Commit">
-    <keyboard-shortcut first-keystroke="meta k" />
-  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
-  <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
-  </action>
-  <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
-  </action>
+  <action id="Console.TableResult.CloneRow" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
   <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
-  <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="meta right" />
+  <action id="EditorDuplicate" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="meta d" />
   </action>
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="meta left" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
-  <action id="Find">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
-    <keyboard-shortcut first-keystroke="alt f3" />
-    <keyboard-shortcut first-keystroke="ctrl s" />
-    <keyboard-shortcut first-keystroke="meta f" />
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
-  <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift ctrl f" />
-    <keyboard-shortcut first-keystroke="shift meta f" />
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
-  <action id="Forward">
+  <action id="SwitchRight">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
-    <mouse-shortcut keystroke="button5" />
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
-  <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="ctrl alt g" />
-    <keyboard-shortcut first-keystroke="escape" second-keystroke="period" />
-    <keyboard-shortcut first-keystroke="alt period" />
-    <mouse-shortcut keystroke="control button1" />
-    <mouse-shortcut keystroke="meta button1" />
-  </action>
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl f" />
-    <keyboard-shortcut first-keystroke="shift meta o" />
-  </action>
-  <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="alt g" />
-    <keyboard-shortcut first-keystroke="meta l" />
-  </action>
-  <action id="NextTab">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
-  </action>
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
-  </action>
-  <action id="Replace">
-    <keyboard-shortcut first-keystroke="shift alt 5" />
-    <keyboard-shortcut first-keystroke="meta r" />
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
 </keymap>
